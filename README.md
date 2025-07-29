@@ -1,4 +1,4 @@
-see: http://localhost:8000/spring-cloud/cloud-config-and-discovery/cloud-consul-discovery/spring-cloud-consul-discovery.html
+see: http://spring-guides.marcuschiu.com/spring-cloud/cloud-config-and-discovery/cloud-consul-discovery/spring-cloud-consul-discovery.html
 
 # Run Consul Server
 ```shell
