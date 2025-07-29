@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: myApp
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
+#        uncomment to disable service discovery
+#        enabled: false
+        healthCheckPath: /my-health-check
+        healthCheckInterval: 20s
